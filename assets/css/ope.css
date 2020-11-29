@@ -1,0 +1,85 @@
+:root {
+  --bot: #ff371c;
+  --alternate-bot-text-color: #1c1c1c;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bot);
+}
+
+.feature-box .icon {
+  font-size: 30px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 30px;
+  text-align: center;
+  color: var(--bot);
+}
+
+.discord {
+  color: #7289d9;
+  border-color: #7289d9;
+  background-color: transparent;
+  transition: all 0.40s linear;
+}
+
+.button {
+  color: var(--bot);
+  border-color: var(--bot);
+  background-color: transparent;
+  transition: all 0.40s linear;
+}
+
+.button:hover {
+  color: var(--alternate-bot-text-color);
+  background-color: var(--bot);
+  border-color: var(--bot);
+  transform: skewx(10deg);
+  transform: skewY(10deg);
+}
+
+.discord:hover {
+  color: #fff;
+  background-color: #7289d9;
+  border-color: #7289d9;
+}
+
+.partners {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.partners.img {
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background: rgb(16,16,16);
+  border-radius: 29px;
+}
+
+.credit {
+  color: var(--bot);
+  transition: all 0.30s linear;
+}
+
+.credit:hover {
+  text-decoration: none;
+  color: var(--bot);
+}
+
