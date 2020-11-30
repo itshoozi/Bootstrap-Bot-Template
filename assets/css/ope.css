@@ -83,3 +83,10 @@
   color: var(--bot);
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
+.col-sm-6.col-lg-4 {
+    margin: 20px;
+}
